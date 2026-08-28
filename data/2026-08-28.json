@@ -1,0 +1,64 @@
+{
+  "13:30": {
+    "date": "2026-08-28",
+    "target_time": "13:30",
+    "captured_at": "2026-08-28T13:34:44+08:00",
+    "late_seconds": 284.8,
+    "timing_status": "LATE",
+    "source": "HiThink Financial-API",
+    "source_timestamps_ms": {
+      "indices": 1787895285000,
+      "market": 1787895297000
+    },
+    "indices": {
+      "上证指数": {
+        "thscode": "000001.SH",
+        "last_price": 3959.08,
+        "prev_price": 3956.57,
+        "price_change": 2.51,
+        "pct": 0.063439,
+        "turnover": 736660560000
+      },
+      "沪深300": {
+        "thscode": "000300.SH",
+        "last_price": 4619.57,
+        "prev_price": 4630.28,
+        "price_change": -10.71,
+        "pct": -0.231304,
+        "turnover": 416628490000
+      },
+      "创业板指": {
+        "thscode": "399006.SZ",
+        "last_price": 3442.7503,
+        "prev_price": 3473.3547,
+        "price_change": -30.6044,
+        "pct": -0.881119,
+        "turnover": 423092950000
+      },
+      "科创50": {
+        "thscode": "000688.SH",
+        "last_price": 1672.66,
+        "prev_price": 1693.48,
+        "price_change": -20.82,
+        "pct": -1.229421,
+        "turnover": 65982052000
+      }
+    },
+    "market": {
+      "stock_count": 5220,
+      "valid_quotes": 5208,
+      "advancers": 2817,
+      "decliners": 2223,
+      "unchanged": 168,
+      "turnover_yuan": 1601337024904.5,
+      "turnover_yi": 16013.37,
+      "prev_snapshot_date": "2026-08-27",
+      "prev_turnover_yi": 15660.54,
+      "turnover_change_pct": 2.25
+    },
+    "integrity": {
+      "rule": "实时快照仅在目标时点抓取；超过5分钟标记 TOO_LATE，不冒充精确时点",
+      "two_markets_scope": "仅.SH和.SZ A股，排除.BJ"
+    }
+  }
+}
