@@ -2,64 +2,64 @@
   "schema_version": 2,
   "source": "HiThink Financial-API",
   "date": "2026-10-13",
-  "captured_at": "2026-10-13T13:31:52+08:00",
-  "collection_started_at": "2026-10-13T13:31:16+08:00",
-  "collection_seconds": 35.733,
+  "captured_at": "2026-10-13T14:45:49+08:00",
+  "collection_started_at": "2026-10-13T14:45:13+08:00",
+  "collection_seconds": 35.444,
   "is_trading_day": true,
   "session_status": "TRADING_PM",
   "source_timestamps_ms": {
-    "indices": 1791869479000,
-    "market_min": 1791869478000,
-    "market_max": 1791869509000
+    "indices": 1791873916000,
+    "market_min": 1791873913000,
+    "market_max": 1791873948000
   },
   "indices": {
     "上证指数": {
       "thscode": "000001.SH",
-      "last_price": 3819.7,
+      "last_price": 3795.13,
       "prev_price": 3797.24,
-      "price_change": 22.46,
-      "pct": 0.591482,
+      "price_change": -2.11,
+      "pct": -0.055567,
       "open_price": 3760.8,
-      "high_price": 3819.7,
+      "high_price": 3822.11,
       "low_price": 3741.53,
-      "volume": 35939914000,
-      "turnover": 580967920000
+      "volume": 45342917000,
+      "turnover": 733305200000
     },
     "沪深300": {
       "thscode": "000300.SH",
-      "last_price": 4307.1,
+      "last_price": 4269.41,
       "prev_price": 4287.98,
-      "price_change": 19.12,
-      "pct": 0.445898,
+      "price_change": -18.57,
+      "pct": -0.433071,
       "open_price": 4236.95,
-      "high_price": 4307.1,
+      "high_price": 4310.33,
       "low_price": 4216.86,
-      "volume": 12779451700,
-      "turnover": 322630330000
+      "volume": 16850863000,
+      "turnover": 415419510000
     },
     "创业板指": {
       "thscode": "399006.SZ",
-      "last_price": 2993.927,
+      "last_price": 2954.9991,
       "prev_price": 2963.8238,
-      "price_change": 30.1032,
-      "pct": 1.015688,
+      "price_change": -8.8247,
+      "pct": -0.297747,
       "open_price": 2899.1459,
-      "high_price": 2993.927,
+      "high_price": 2999.7577,
       "low_price": 2860.8009,
-      "volume": 13913737000,
-      "turnover": 343907530000
+      "volume": 17159258000,
+      "turnover": 426428100000
     },
     "科创50": {
       "thscode": "000688.SH",
-      "last_price": 1444.99,
+      "last_price": 1423.12,
       "prev_price": 1426.72,
-      "price_change": 18.27,
-      "pct": 1.28056,
+      "price_change": -3.6,
+      "pct": -0.252327,
       "open_price": 1389.53,
-      "high_price": 1444.99,
+      "high_price": 1447.19,
       "low_price": 1375.33,
-      "volume": 582644800,
-      "turnover": 57773238000
+      "volume": 725909000,
+      "turnover": 72862414000
     }
   },
   "market": {
@@ -67,11 +67,11 @@
     "stock_count": 5227,
     "valid_quotes": 5211,
     "unquoted": 16,
-    "advancers": 3565,
-    "decliners": 1482,
-    "unchanged": 164,
-    "turnover_yuan": 1257122146449.2,
-    "turnover_yi": 12571.22
+    "advancers": 2632,
+    "decliners": 2430,
+    "unchanged": 149,
+    "turnover_yuan": 1578367600999.6,
+    "turnover_yi": 15783.68
   },
   "integrity": {
     "snapshot_type": "MANUAL_REALTIME",
