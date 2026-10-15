@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "source": "HiThink Financial-API",
+  "date": "2026-10-15",
+  "captured_at": "2026-10-15T13:54:33+08:00",
+  "collection_started_at": "2026-10-15T13:53:58+08:00",
+  "collection_seconds": 34.757,
+  "is_trading_day": true,
+  "session_status": "TRADING_PM",
+  "source_timestamps_ms": {
+    "indices": 1792043641000,
+    "market_min": 1792043640000,
+    "market_max": 1792043672000
+  },
+  "indices": {
+    "上证指数": {
+      "thscode": "000001.SH",
+      "last_price": 3691.41,
+      "prev_price": 3767.23,
+      "price_change": -75.82,
+      "pct": -2.012619,
+      "open_price": 3710.7,
+      "high_price": 3724.56,
+      "low_price": 3674.82,
+      "volume": 39039426000,
+      "turnover": 585928440000
+    },
+    "沪深300": {
+      "thscode": "000300.SH",
+      "last_price": 4133.92,
+      "prev_price": 4217.68,
+      "price_change": -83.76,
+      "pct": -1.985926,
+      "open_price": 4145.95,
+      "high_price": 4175.52,
+      "low_price": 4115.07,
+      "volume": 15452284000,
+      "turnover": 349721210000
+    },
+    "创业板指": {
+      "thscode": "399006.SZ",
+      "last_price": 2772.0112,
+      "prev_price": 2866.763,
+      "price_change": -94.7518,
+      "pct": -3.305184,
+      "open_price": 2776.9241,
+      "high_price": 2819.3811,
+      "low_price": 2752.0785,
+      "volume": 13463426000,
+      "turnover": 322475380000
+    },
+    "科创50": {
+      "thscode": "000688.SH",
+      "last_price": 1345.07,
+      "prev_price": 1380.26,
+      "price_change": -35.19,
+      "pct": -2.54952,
+      "open_price": 1326.24,
+      "high_price": 1359.7,
+      "low_price": 1326.24,
+      "volume": 618979100,
+      "turnover": 58400436000
+    }
+  },
+  "market": {
+    "scope": "仅沪深两市 .SH / .SZ A股，排除 .BJ",
+    "stock_count": 5227,
+    "valid_quotes": 5214,
+    "unquoted": 13,
+    "advancers": 459,
+    "decliners": 4719,
+    "unchanged": 36,
+    "turnover_yuan": 1250651972616.2,
+    "turnover_yi": 12506.52
+  },
+  "integrity": {
+    "snapshot_type": "MANUAL_REALTIME",
+    "time_rule": "按 GitHub 手动运行实际抓取时间记录，不冒充固定时点。",
+    "two_markets_scope": "仅 .SH 和 .SZ A股，排除 .BJ。",
+    "market_pagination_pages": 56,
+    "api_total_before_market_filter": 5580,
+    "breadth_sum": 5214,
+    "note": "全市场数据通过分页读取，各页源时间可能存在数秒差异。"
+  }
+}
