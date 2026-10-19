@@ -3,15 +3,15 @@
   "extension_version": "3.0",
   "source": "HiThink Financial-API",
   "date": "2026-10-19",
-  "captured_at": "2026-10-19T17:17:24+08:00",
-  "collection_started_at": "2026-10-19T17:16:56+08:00",
-  "collection_seconds": 27.686,
+  "captured_at": "2026-10-19T17:38:37+08:00",
+  "collection_started_at": "2026-10-19T17:38:05+08:00",
+  "collection_seconds": 31.247,
   "is_trading_day": true,
   "session_status": "CLOSED",
   "source_timestamps_ms": {
-    "indices": 1792401418000,
-    "market_min": 1792401415000,
-    "market_max": 1792401438000
+    "indices": 1792402687000,
+    "market_min": 1792402687000,
+    "market_max": 1792402710000
   },
   "indices": {
     "上证指数": {
@@ -464,7 +464,7 @@
         "match": "exact"
       }
     },
-    "timestamp_ms": 1792401440000
+    "timestamp_ms": 1792402713000
   },
   "capital_flow": {
     "status": "UNAVAILABLE",
@@ -473,7 +473,7 @@
   },
   "comparison": {
     "available": false,
-    "reason": "无上一份快照"
+    "reason": "只对同一交易日、从盘中开始的两份快照进行盘口变化比较"
   },
   "data_quality": {
     "status": "CHECK",
