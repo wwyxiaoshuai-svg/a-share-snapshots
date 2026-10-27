@@ -1,0 +1,482 @@
+{
+  "schema_version": 2,
+  "extension_version": "3.0",
+  "source": "HiThink Financial-API",
+  "date": "2026-10-27",
+  "captured_at": "2026-10-27T11:04:30+08:00",
+  "collection_started_at": "2026-10-27T11:04:02+08:00",
+  "collection_seconds": 27.4,
+  "is_trading_day": true,
+  "session_status": "TRADING_AM",
+  "source_timestamps_ms": {
+    "indices": 1793070245000,
+    "market_min": 1793070245000,
+    "market_max": 1793070265000
+  },
+  "indices": {
+    "上证指数": {
+      "thscode": "000001.SH",
+      "last_price": 3690.52,
+      "prev_price": 3697.52,
+      "price_change": -7,
+      "pct": -0.189316,
+      "open_price": 3698.44,
+      "high_price": 3708.2,
+      "low_price": 3685.23,
+      "volume": 21800566000,
+      "turnover": 356782950000
+    },
+    "沪深300": {
+      "thscode": "000300.SH",
+      "last_price": 4096.41,
+      "prev_price": 4103.54,
+      "price_change": -7.13,
+      "pct": -0.173752,
+      "open_price": 4105.48,
+      "high_price": 4110,
+      "low_price": 4087.49,
+      "volume": 7974221100,
+      "turnover": 189975610000
+    },
+    "创业板指": {
+      "thscode": "399006.SZ",
+      "last_price": 2623.9841,
+      "prev_price": 2638.2306,
+      "price_change": -14.2465,
+      "pct": -0.540002,
+      "open_price": 2661.713,
+      "high_price": 2670.4705,
+      "low_price": 2616.2809,
+      "volume": 9547433400,
+      "turnover": 219199120000
+    },
+    "科创50": {
+      "thscode": "000688.SH",
+      "last_price": 1294.63,
+      "prev_price": 1315.5,
+      "price_change": -20.87,
+      "pct": -1.586469,
+      "open_price": 1326.76,
+      "high_price": 1327.33,
+      "low_price": 1290.14,
+      "volume": 366241800,
+      "turnover": 31901900000
+    }
+  },
+  "market": {
+    "scope": "仅沪深两市 .SH / .SZ A股，排除 .BJ",
+    "stock_count": 5224,
+    "valid_quotes": 5215,
+    "unquoted": 9,
+    "advancers": 1396,
+    "decliners": 3640,
+    "unchanged": 179,
+    "turnover_yuan": 804179276788.29,
+    "turnover_yi": 8041.79,
+    "advance_ratio_pct": 26.77,
+    "advancers_turnover_yi": 3420.39,
+    "decliners_turnover_yi": 4471.13,
+    "unchanged_turnover_yi": 150.28,
+    "turnover_interpretation": "涨/跌股票当日累计成交额之和，不代表资金净流入或净流出"
+  },
+  "integrity": {
+    "snapshot_type": "MANUAL_REALTIME",
+    "time_rule": "GitHub手动抓取时间，非固定时点；非盘中是最近可用数据",
+    "two_markets_scope": "仅 .SH 和 .SZ A股，排除 .BJ",
+    "market_pagination_pages": 56,
+    "api_total_before_market_filter": 5579,
+    "breadth_sum": 5215,
+    "raw_rows_retrieved": 5579,
+    "note": "全市场分多页读取，报价非严格同秒；板块可能含重复成分股"
+  },
+  "sectors": {
+    "半导体": {
+      "index_name": "半导体",
+      "index_type": "industry",
+      "index_match_method": "exact",
+      "thscode": "881121.TI",
+      "quote": {
+        "thscode": "881121.TI",
+        "last_price": 13347.825,
+        "prev_price": 13490.764,
+        "price_change": -142.939,
+        "pct": -1.059532,
+        "open_price": 13696.524,
+        "high_price": 13737.489,
+        "low_price": 13307.545,
+        "volume": 1474931200,
+        "turnover": 93392198000
+      },
+      "constituents": {
+        "constituent_count": 184,
+        "matched_stock_count": 184,
+        "coverage_pct": 100.0,
+        "valid_quotes": 184,
+        "advancers": 41,
+        "decliners": 142,
+        "unchanged": 1,
+        "advance_ratio_pct": 22.28,
+        "constituents_turnover_yi": 930.97,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "半导体设备": {
+      "index_name": "半导体设备",
+      "index_type": "industry",
+      "index_match_method": "exact",
+      "thscode": "884229.TI",
+      "quote": {
+        "thscode": "884229.TI",
+        "last_price": 178922.7,
+        "prev_price": 183477.37,
+        "price_change": -4554.67,
+        "pct": -2.482415,
+        "open_price": 186560.54,
+        "high_price": 186858.5,
+        "low_price": 178198.55,
+        "volume": 89148289,
+        "turnover": 14164582000
+      },
+      "constituents": {
+        "constituent_count": 25,
+        "matched_stock_count": 25,
+        "coverage_pct": 100.0,
+        "valid_quotes": 25,
+        "advancers": 4,
+        "decliners": 21,
+        "unchanged": 0,
+        "advance_ratio_pct": 16.0,
+        "constituents_turnover_yi": 140.51,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "芯片": {
+      "index_name": "芯片概念",
+      "index_type": "cn_concept",
+      "index_match_method": "exact",
+      "thscode": "885756.TI",
+      "quote": {
+        "thscode": "885756.TI",
+        "last_price": 4215.638,
+        "prev_price": 4244.967,
+        "price_change": -29.329,
+        "pct": -0.690912,
+        "open_price": 4277.557,
+        "high_price": 4302.632,
+        "low_price": 4205.918,
+        "volume": 8983013700,
+        "turnover": 275327570000
+      },
+      "constituents": {
+        "constituent_count": 888,
+        "matched_stock_count": 888,
+        "coverage_pct": 100.0,
+        "valid_quotes": 886,
+        "advancers": 233,
+        "decliners": 632,
+        "unchanged": 21,
+        "advance_ratio_pct": 26.3,
+        "constituents_turnover_yi": 2734.46,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "存储芯片": {
+      "index_name": "存储芯片",
+      "index_type": "cn_concept",
+      "index_match_method": "exact",
+      "thscode": "886042.TI",
+      "quote": {
+        "thscode": "886042.TI",
+        "last_price": 2092.537,
+        "prev_price": 2109.724,
+        "price_change": -17.187,
+        "pct": -0.814656,
+        "open_price": 2139.436,
+        "high_price": 2150.608,
+        "low_price": 2087.025,
+        "volume": 1917715300,
+        "turnover": 93257340000
+      },
+      "constituents": {
+        "constituent_count": 199,
+        "matched_stock_count": 199,
+        "coverage_pct": 100.0,
+        "valid_quotes": 199,
+        "advancers": 61,
+        "decliners": 135,
+        "unchanged": 3,
+        "advance_ratio_pct": 30.65,
+        "constituents_turnover_yi": 930.62,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "通信设备": {
+      "index_name": "通信设备",
+      "index_type": "industry",
+      "index_match_method": "exact",
+      "thscode": "881129.TI",
+      "quote": {
+        "thscode": "881129.TI",
+        "last_price": 8011.649,
+        "prev_price": 8030.398,
+        "price_change": -18.749,
+        "pct": -0.233475,
+        "open_price": 8120.327,
+        "high_price": 8189.14,
+        "low_price": 7989.781,
+        "volume": 830617600,
+        "turnover": 49297697000
+      },
+      "constituents": {
+        "constituent_count": 88,
+        "matched_stock_count": 88,
+        "coverage_pct": 100.0,
+        "valid_quotes": 88,
+        "advancers": 34,
+        "decliners": 53,
+        "unchanged": 1,
+        "advance_ratio_pct": 38.64,
+        "constituents_turnover_yi": 487.66,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "CPO光模块": {
+      "index_name": "共封装光学(CPO)",
+      "index_type": "cn_concept",
+      "index_match_method": "unique_partial",
+      "thscode": "886033.TI",
+      "quote": {
+        "thscode": "886033.TI",
+        "last_price": 4832.395,
+        "prev_price": 4851.514,
+        "price_change": -19.119,
+        "pct": -0.394083,
+        "open_price": 4923.092,
+        "high_price": 4956.016,
+        "low_price": 4817.939,
+        "volume": 2805189200,
+        "turnover": 119620276000
+      },
+      "constituents": {
+        "constituent_count": 221,
+        "matched_stock_count": 221,
+        "coverage_pct": 100.0,
+        "valid_quotes": 221,
+        "advancers": 83,
+        "decliners": 136,
+        "unchanged": 2,
+        "advance_ratio_pct": 37.56,
+        "constituents_turnover_yi": 1187.97,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "PCB": {
+      "index_name": "PCB概念",
+      "index_type": "cn_concept",
+      "index_match_method": "exact",
+      "thscode": "885959.TI",
+      "quote": {
+        "thscode": "885959.TI",
+        "last_price": 2201.125,
+        "prev_price": 2218.115,
+        "price_change": -16.99,
+        "pct": -0.765966,
+        "open_price": 2242.539,
+        "high_price": 2257.151,
+        "low_price": 2195.079,
+        "volume": 2370053800,
+        "turnover": 71890078000
+      },
+      "constituents": {
+        "constituent_count": 230,
+        "matched_stock_count": 230,
+        "coverage_pct": 100.0,
+        "valid_quotes": 229,
+        "advancers": 73,
+        "decliners": 151,
+        "unchanged": 5,
+        "advance_ratio_pct": 31.88,
+        "constituents_turnover_yi": 715.9,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "机器人": {
+      "index_name": "机器人概念",
+      "index_type": "cn_concept",
+      "index_match_method": "exact",
+      "thscode": "885517.TI",
+      "quote": {
+        "thscode": "885517.TI",
+        "last_price": 3605.835,
+        "prev_price": 3626.884,
+        "price_change": -21.049,
+        "pct": -0.58036,
+        "open_price": 3629.918,
+        "high_price": 3662.86,
+        "low_price": 3598.971,
+        "volume": 12174532000,
+        "turnover": 237121080000
+      },
+      "constituents": {
+        "constituent_count": 1174,
+        "matched_stock_count": 1174,
+        "coverage_pct": 100.0,
+        "valid_quotes": 1174,
+        "advancers": 330,
+        "decliners": 816,
+        "unchanged": 28,
+        "advance_ratio_pct": 28.11,
+        "constituents_turnover_yi": 2351.76,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "电网设备": {
+      "index_name": "电网设备",
+      "index_type": "industry",
+      "index_match_method": "exact",
+      "thscode": "881278.TI",
+      "quote": {
+        "thscode": "881278.TI",
+        "last_price": 5694.904,
+        "prev_price": 5738.099,
+        "price_change": -43.195,
+        "pct": -0.752775,
+        "open_price": 5758.794,
+        "high_price": 5797.012,
+        "low_price": 5687.26,
+        "volume": 768531030,
+        "turnover": 10482951800
+      },
+      "constituents": {
+        "constituent_count": 125,
+        "matched_stock_count": 125,
+        "coverage_pct": 100.0,
+        "valid_quotes": 125,
+        "advancers": 20,
+        "decliners": 102,
+        "unchanged": 3,
+        "advance_ratio_pct": 16.0,
+        "constituents_turnover_yi": 103.67,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    },
+    "算力": {
+      "index_name": "算力租赁",
+      "index_type": "cn_concept",
+      "index_match_method": "exact",
+      "thscode": "886050.TI",
+      "quote": {
+        "thscode": "886050.TI",
+        "last_price": 1254.158,
+        "prev_price": 1263.576,
+        "price_change": -9.418,
+        "pct": -0.745345,
+        "open_price": 1266.103,
+        "high_price": 1274.802,
+        "low_price": 1251.402,
+        "volume": 2720864600,
+        "turnover": 37184857000
+      },
+      "constituents": {
+        "constituent_count": 185,
+        "matched_stock_count": 185,
+        "coverage_pct": 100.0,
+        "valid_quotes": 185,
+        "advancers": 46,
+        "decliners": 134,
+        "unchanged": 5,
+        "advance_ratio_pct": 24.86,
+        "constituents_turnover_yi": 370.59,
+        "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
+      }
+    }
+  },
+  "sector_meta": {
+    "resolution": {
+      "半导体": {
+        "status": "resolved",
+        "thscode": "881121.TI",
+        "name": "半导体",
+        "tag": "industry",
+        "match": "exact"
+      },
+      "半导体设备": {
+        "status": "resolved",
+        "thscode": "884229.TI",
+        "name": "半导体设备",
+        "tag": "industry",
+        "match": "exact"
+      },
+      "芯片": {
+        "status": "resolved",
+        "thscode": "885756.TI",
+        "name": "芯片概念",
+        "tag": "cn_concept",
+        "match": "exact"
+      },
+      "存储芯片": {
+        "status": "resolved",
+        "thscode": "886042.TI",
+        "name": "存储芯片",
+        "tag": "cn_concept",
+        "match": "exact"
+      },
+      "通信设备": {
+        "status": "resolved",
+        "thscode": "881129.TI",
+        "name": "通信设备",
+        "tag": "industry",
+        "match": "exact"
+      },
+      "CPO光模块": {
+        "status": "resolved",
+        "thscode": "886033.TI",
+        "name": "共封装光学(CPO)",
+        "tag": "cn_concept",
+        "match": "unique_partial"
+      },
+      "PCB": {
+        "status": "resolved",
+        "thscode": "885959.TI",
+        "name": "PCB概念",
+        "tag": "cn_concept",
+        "match": "exact"
+      },
+      "机器人": {
+        "status": "resolved",
+        "thscode": "885517.TI",
+        "name": "机器人概念",
+        "tag": "cn_concept",
+        "match": "exact"
+      },
+      "电网设备": {
+        "status": "resolved",
+        "thscode": "881278.TI",
+        "name": "电网设备",
+        "tag": "industry",
+        "match": "exact"
+      },
+      "算力": {
+        "status": "resolved",
+        "thscode": "886050.TI",
+        "name": "算力租赁",
+        "tag": "cn_concept",
+        "match": "exact"
+      }
+    },
+    "timestamp_ms": 1793070267000
+  },
+  "capital_flow": {
+    "status": "UNAVAILABLE",
+    "main_fund_net_inflow": null,
+    "note": "当前外部API未开放官方主力资金接口；成交额、涨跌广度不可冒充资金净流入"
+  },
+  "comparison": {
+    "available": false,
+    "reason": "上一份快照不是同一自然日"
+  },
+  "data_quality": {
+    "status": "OK",
+    "notices": []
+  }
+}
