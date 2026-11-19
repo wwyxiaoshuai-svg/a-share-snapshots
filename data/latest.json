@@ -3,64 +3,64 @@
   "extension_version": "3.0",
   "source": "HiThink Financial-API",
   "date": "2026-11-19",
-  "captured_at": "2026-11-19T13:40:19+08:00",
-  "collection_started_at": "2026-11-19T13:39:47+08:00",
-  "collection_seconds": 31.381,
+  "captured_at": "2026-11-19T14:39:19+08:00",
+  "collection_started_at": "2026-11-19T14:38:51+08:00",
+  "collection_seconds": 28.496,
   "is_trading_day": true,
   "session_status": "TRADING_PM",
   "source_timestamps_ms": {
-    "indices": 1795066789000,
-    "market_min": 1795066788000,
-    "market_max": 1795066811000
+    "indices": 1795070332000,
+    "market_min": 1795070331000,
+    "market_max": 1795070351000
   },
   "indices": {
     "上证指数": {
       "thscode": "000001.SH",
-      "last_price": 3569.13,
+      "last_price": 3557.53,
       "prev_price": 3587.83,
-      "price_change": -18.7,
-      "pct": -0.521206,
+      "price_change": -30.3,
+      "pct": -0.844522,
       "open_price": 3583.12,
       "high_price": 3583.12,
       "low_price": 3547.94,
-      "volume": 29894078000,
-      "turnover": 467042260000
+      "volume": 35957042000,
+      "turnover": 555272070000
     },
     "沪深300": {
       "thscode": "000300.SH",
-      "last_price": 3968.59,
+      "last_price": 3954.77,
       "prev_price": 3983.77,
-      "price_change": -15.18,
-      "pct": -0.381046,
+      "price_change": -29,
+      "pct": -0.727954,
       "open_price": 3972.43,
       "high_price": 3978.45,
       "low_price": 3937.75,
-      "volume": 10666111900,
-      "turnover": 275739100000
+      "volume": 13239207700,
+      "turnover": 331996090000
     },
     "创业板指": {
       "thscode": "399006.SZ",
-      "last_price": 2295.184,
+      "last_price": 2281.6157,
       "prev_price": 2311.6208,
-      "price_change": -16.4368,
-      "pct": -0.711051,
+      "price_change": -30.0051,
+      "pct": -1.298011,
       "open_price": 2290.2089,
       "high_price": 2315.784,
       "low_price": 2271.9855,
-      "volume": 10818830600,
-      "turnover": 234240380000
+      "volume": 13000704000,
+      "turnover": 278433280000
     },
     "科创50": {
       "thscode": "000688.SH",
-      "last_price": 1253.51,
+      "last_price": 1251.56,
       "prev_price": 1247.99,
-      "price_change": 5.52,
-      "pct": 0.442311,
+      "price_change": 3.57,
+      "pct": 0.28606,
       "open_price": 1242.28,
       "high_price": 1274.85,
       "low_price": 1220.38,
-      "volume": 876976900,
-      "turnover": 82338267000
+      "volume": 1028546800,
+      "turnover": 95410269000
     }
   },
   "market": {
@@ -68,15 +68,15 @@
     "stock_count": 5226,
     "valid_quotes": 5217,
     "unquoted": 9,
-    "advancers": 695,
-    "decliners": 4448,
-    "unchanged": 74,
-    "turnover_yuan": 968247046047.5,
-    "turnover_yi": 9682.47,
-    "advance_ratio_pct": 13.32,
-    "advancers_turnover_yi": 3027.88,
-    "decliners_turnover_yi": 6582.04,
-    "unchanged_turnover_yi": 72.55,
+    "advancers": 495,
+    "decliners": 4683,
+    "unchanged": 39,
+    "turnover_yuan": 1150071595125.3,
+    "turnover_yi": 11500.72,
+    "advance_ratio_pct": 9.49,
+    "advancers_turnover_yi": 2952.73,
+    "decliners_turnover_yi": 8478.52,
+    "unchanged_turnover_yi": 69.46,
     "turnover_interpretation": "涨/跌股票当日累计成交额之和，不代表资金净流入或净流出"
   },
   "integrity": {
@@ -97,26 +97,26 @@
       "thscode": "881121.TI",
       "quote": {
         "thscode": "881121.TI",
-        "last_price": 12378.919,
+        "last_price": 12282.612,
         "prev_price": 12439.88,
-        "price_change": -60.961,
-        "pct": -0.490045,
+        "price_change": -157.268,
+        "pct": -1.264224,
         "open_price": 12383.731,
         "high_price": 12650.089,
         "low_price": 12219.969,
-        "volume": 2588939300,
-        "turnover": 165942010000
+        "volume": 2981207700,
+        "turnover": 191793620000
       },
       "constituents": {
         "constituent_count": 184,
         "matched_stock_count": 184,
         "coverage_pct": 100.0,
         "valid_quotes": 183,
-        "advancers": 64,
-        "decliners": 119,
+        "advancers": 52,
+        "decliners": 131,
         "unchanged": 0,
-        "advance_ratio_pct": 34.97,
-        "constituents_turnover_yi": 1653.99,
+        "advance_ratio_pct": 28.42,
+        "constituents_turnover_yi": 1911.81,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -127,26 +127,26 @@
       "thscode": "884229.TI",
       "quote": {
         "thscode": "884229.TI",
-        "last_price": 178809.75,
+        "last_price": 177374.28,
         "prev_price": 178174.12,
-        "price_change": 635.63,
-        "pct": 0.356747,
+        "price_change": -799.84,
+        "pct": -0.448909,
         "open_price": 177118.86,
         "high_price": 183533.59,
         "low_price": 175407.79,
-        "volume": 179396010,
-        "turnover": 30689980000
+        "volume": 211339280,
+        "turnover": 35990832000
       },
       "constituents": {
         "constituent_count": 25,
         "matched_stock_count": 25,
         "coverage_pct": 100.0,
         "valid_quotes": 25,
-        "advancers": 11,
-        "decliners": 14,
+        "advancers": 9,
+        "decliners": 16,
         "unchanged": 0,
-        "advance_ratio_pct": 44.0,
-        "constituents_turnover_yi": 305.25,
+        "advance_ratio_pct": 36.0,
+        "constituents_turnover_yi": 358.01,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -157,26 +157,26 @@
       "thscode": "885756.TI",
       "quote": {
         "thscode": "885756.TI",
-        "last_price": 3806.776,
+        "last_price": 3772.815,
         "prev_price": 3860.898,
-        "price_change": -54.122,
-        "pct": -1.401798,
+        "price_change": -88.083,
+        "pct": -2.281412,
         "open_price": 3845.841,
         "high_price": 3862.359,
         "low_price": 3771.229,
-        "volume": 13904290000,
-        "turnover": 409758610000
+        "volume": 16378168000,
+        "turnover": 477225620000
       },
       "constituents": {
         "constituent_count": 895,
         "matched_stock_count": 895,
         "coverage_pct": 100.0,
         "valid_quotes": 893,
-        "advancers": 188,
-        "decliners": 701,
-        "unchanged": 4,
-        "advance_ratio_pct": 21.05,
-        "constituents_turnover_yi": 4074.92,
+        "advancers": 142,
+        "decliners": 748,
+        "unchanged": 3,
+        "advance_ratio_pct": 15.9,
+        "constituents_turnover_yi": 4744.9,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -187,26 +187,26 @@
       "thscode": "886042.TI",
       "quote": {
         "thscode": "886042.TI",
-        "last_price": 1928.998,
+        "last_price": 1914.578,
         "prev_price": 1934.7,
-        "price_change": -5.702,
-        "pct": -0.294723,
+        "price_change": -20.122,
+        "pct": -1.040058,
         "open_price": 1924.139,
         "high_price": 1965.201,
         "low_price": 1907.311,
-        "volume": 3306256500,
-        "turnover": 156271990000
+        "volume": 3828405300,
+        "turnover": 181093400000
       },
       "constituents": {
         "constituent_count": 201,
         "matched_stock_count": 201,
         "coverage_pct": 100.0,
         "valid_quotes": 201,
-        "advancers": 67,
-        "decliners": 133,
-        "unchanged": 1,
-        "advance_ratio_pct": 33.33,
-        "constituents_turnover_yi": 1558.8,
+        "advancers": 55,
+        "decliners": 144,
+        "unchanged": 2,
+        "advance_ratio_pct": 27.36,
+        "constituents_turnover_yi": 1806.32,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -217,26 +217,26 @@
       "thscode": "881129.TI",
       "quote": {
         "thscode": "881129.TI",
-        "last_price": 6789.262,
+        "last_price": 6726.864,
         "prev_price": 6973.045,
-        "price_change": -183.783,
-        "pct": -2.63562,
+        "price_change": -246.181,
+        "pct": -3.530466,
         "open_price": 6900.128,
         "high_price": 6900.128,
         "low_price": 6718.218,
-        "volume": 1216336670,
-        "turnover": 60351594000
+        "volume": 1407253300,
+        "turnover": 69747954000
       },
       "constituents": {
         "constituent_count": 88,
         "matched_stock_count": 88,
         "coverage_pct": 100.0,
         "valid_quotes": 88,
-        "advancers": 8,
-        "decliners": 80,
+        "advancers": 6,
+        "decliners": 82,
         "unchanged": 0,
-        "advance_ratio_pct": 9.09,
-        "constituents_turnover_yi": 594.2,
+        "advance_ratio_pct": 6.82,
+        "constituents_turnover_yi": 687.05,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -247,26 +247,26 @@
       "thscode": "886033.TI",
       "quote": {
         "thscode": "886033.TI",
-        "last_price": 4113.188,
+        "last_price": 4078.925,
         "prev_price": 4174.591,
-        "price_change": -61.403,
-        "pct": -1.470875,
+        "price_change": -95.666,
+        "pct": -2.291626,
         "open_price": 4142.533,
         "high_price": 4175.855,
         "low_price": 4069.702,
-        "volume": 4859610400,
-        "turnover": 162728180000
+        "volume": 5737322000,
+        "turnover": 189273320000
       },
       "constituents": {
         "constituent_count": 226,
         "matched_stock_count": 226,
         "coverage_pct": 100.0,
         "valid_quotes": 225,
-        "advancers": 38,
-        "decliners": 187,
-        "unchanged": 0,
-        "advance_ratio_pct": 16.89,
-        "constituents_turnover_yi": 1614.71,
+        "advancers": 28,
+        "decliners": 196,
+        "unchanged": 1,
+        "advance_ratio_pct": 12.44,
+        "constituents_turnover_yi": 1878.77,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -277,26 +277,26 @@
       "thscode": "885959.TI",
       "quote": {
         "thscode": "885959.TI",
-        "last_price": 1908.941,
+        "last_price": 1892.143,
         "prev_price": 1935.504,
-        "price_change": -26.563,
-        "pct": -1.372407,
+        "price_change": -43.361,
+        "pct": -2.240295,
         "open_price": 1922.375,
         "high_price": 1937.321,
         "low_price": 1890.148,
-        "volume": 3341118400,
-        "turnover": 84768389000
+        "volume": 3929539700,
+        "turnover": 98928276000
       },
       "constituents": {
         "constituent_count": 230,
         "matched_stock_count": 230,
         "coverage_pct": 100.0,
         "valid_quotes": 230,
-        "advancers": 45,
-        "decliners": 185,
+        "advancers": 28,
+        "decliners": 202,
         "unchanged": 0,
-        "advance_ratio_pct": 19.57,
-        "constituents_turnover_yi": 843.12,
+        "advance_ratio_pct": 12.17,
+        "constituents_turnover_yi": 984.17,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -307,26 +307,26 @@
       "thscode": "885517.TI",
       "quote": {
         "thscode": "885517.TI",
-        "last_price": 3226.206,
+        "last_price": 3197.124,
         "prev_price": 3302.805,
-        "price_change": -76.599,
-        "pct": -2.31921,
+        "price_change": -105.681,
+        "pct": -3.199735,
         "open_price": 3291.777,
         "high_price": 3291.777,
-        "low_price": 3206.383,
-        "volume": 13984419000,
-        "turnover": 246952220000
+        "low_price": 3197.124,
+        "volume": 16735140000,
+        "turnover": 292317370000
       },
       "constituents": {
         "constituent_count": 1179,
         "matched_stock_count": 1179,
         "coverage_pct": 100.0,
         "valid_quotes": 1178,
-        "advancers": 123,
-        "decliners": 1048,
-        "unchanged": 7,
-        "advance_ratio_pct": 10.44,
-        "constituents_turnover_yi": 2458.32,
+        "advancers": 86,
+        "decliners": 1081,
+        "unchanged": 11,
+        "advance_ratio_pct": 7.3,
+        "constituents_turnover_yi": 2908.69,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -337,26 +337,26 @@
       "thscode": "881278.TI",
       "quote": {
         "thscode": "881278.TI",
-        "last_price": 5212.005,
+        "last_price": 5163.988,
         "prev_price": 5343.389,
-        "price_change": -131.384,
-        "pct": -2.458814,
+        "price_change": -179.401,
+        "pct": -3.357439,
         "open_price": 5321.046,
         "high_price": 5321.046,
-        "low_price": 5181.785,
-        "volume": 1098147210,
-        "turnover": 12712607900
+        "low_price": 5163.988,
+        "volume": 1325692850,
+        "turnover": 15360737000
       },
       "constituents": {
         "constituent_count": 125,
         "matched_stock_count": 125,
         "coverage_pct": 100.0,
         "valid_quotes": 125,
-        "advancers": 11,
-        "decliners": 114,
+        "advancers": 8,
+        "decliners": 117,
         "unchanged": 0,
-        "advance_ratio_pct": 8.8,
-        "constituents_turnover_yi": 125.49,
+        "advance_ratio_pct": 6.4,
+        "constituents_turnover_yi": 151.45,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     },
@@ -367,26 +367,26 @@
       "thscode": "886050.TI",
       "quote": {
         "thscode": "886050.TI",
-        "last_price": 1147.726,
+        "last_price": 1137.857,
         "prev_price": 1187.202,
-        "price_change": -39.476,
-        "pct": -3.325129,
+        "price_change": -49.345,
+        "pct": -4.156411,
         "open_price": 1186.329,
         "high_price": 1186.329,
-        "low_price": 1141.026,
-        "volume": 5133414600,
-        "turnover": 69466735000
+        "low_price": 1137.857,
+        "volume": 6059357700,
+        "turnover": 80100284000
       },
       "constituents": {
         "constituent_count": 186,
         "matched_stock_count": 186,
         "coverage_pct": 100.0,
         "valid_quotes": 186,
-        "advancers": 16,
-        "decliners": 167,
-        "unchanged": 3,
-        "advance_ratio_pct": 8.6,
-        "constituents_turnover_yi": 689.51,
+        "advancers": 14,
+        "decliners": 172,
+        "unchanged": 0,
+        "advance_ratio_pct": 7.53,
+        "constituents_turnover_yi": 795.0,
         "note": "行业成分股可能跨板块重复；成交额总和不是资金净流入。覆盖率低于80%时不提供成交额。"
       }
     }
@@ -464,7 +464,7 @@
         "match": "exact"
       }
     },
-    "timestamp_ms": 1795066813000
+    "timestamp_ms": 1795070355000
   },
   "capital_flow": {
     "status": "UNAVAILABLE",
@@ -473,92 +473,92 @@
   },
   "comparison": {
     "available": true,
-    "previous_captured_at": "2026-11-19T10:31:26+08:00",
-    "elapsed_minutes": 188.9,
+    "previous_captured_at": "2026-11-19T13:40:19+08:00",
+    "elapsed_minutes": 59.0,
     "market": {
-      "advancers_change": 77.0,
-      "decliners_change": -80.0,
-      "turnover_increment_yi": 4035.09,
+      "advancers_change": -200.0,
+      "decliners_change": 235.0,
+      "turnover_increment_yi": 1818.25,
       "note": "成交额增量是两次采集间累计成交额的差值，不是资金净流入；跨午休时不能直接换算成每分钟成交额。"
     },
     "indices": {
       "上证指数": {
-        "point_change": 10.72,
-        "pct_point_change": 0.2988
+        "point_change": -11.6,
+        "pct_point_change": -0.3233
       },
       "沪深300": {
-        "point_change": 21.2,
-        "pct_point_change": 0.5322
+        "point_change": -13.82,
+        "pct_point_change": -0.3469
       },
       "创业板指": {
-        "point_change": 12.46,
-        "pct_point_change": 0.5389
+        "point_change": -13.57,
+        "pct_point_change": -0.587
       },
       "科创50": {
-        "point_change": 15.59,
-        "pct_point_change": 1.2492
+        "point_change": -1.95,
+        "pct_point_change": -0.1563
       }
     },
     "sectors": {
       "半导体": {
-        "pct_point_change": 0.2726,
-        "index_turnover_increment_yi": 769.74,
-        "advance_ratio_pct_point_change": 2.18,
-        "constituents_turnover_increment_yi": 766.59
+        "pct_point_change": -0.7742,
+        "index_turnover_increment_yi": 258.52,
+        "advance_ratio_pct_point_change": -6.55,
+        "constituents_turnover_increment_yi": 257.82
       },
       "半导体设备": {
-        "pct_point_change": 0.7768,
-        "index_turnover_increment_yi": 169.28,
-        "advance_ratio_pct_point_change": 0.0,
-        "constituents_turnover_increment_yi": 168.33
+        "pct_point_change": -0.8057,
+        "index_turnover_increment_yi": 53.01,
+        "advance_ratio_pct_point_change": -8.0,
+        "constituents_turnover_increment_yi": 52.76
       },
       "芯片": {
-        "pct_point_change": -0.0765,
-        "index_turnover_increment_yi": 1746.45,
-        "advance_ratio_pct_point_change": 2.8,
-        "constituents_turnover_increment_yi": 1737.22
+        "pct_point_change": -0.8796,
+        "index_turnover_increment_yi": 674.67,
+        "advance_ratio_pct_point_change": -5.15,
+        "constituents_turnover_increment_yi": 669.98
       },
       "存储芯片": {
-        "pct_point_change": 0.2294,
-        "index_turnover_increment_yi": 723.88,
-        "advance_ratio_pct_point_change": 4.47,
-        "constituents_turnover_increment_yi": 721.97
+        "pct_point_change": -0.7453,
+        "index_turnover_increment_yi": 248.21,
+        "advance_ratio_pct_point_change": -5.97,
+        "constituents_turnover_increment_yi": 247.52
       },
       "通信设备": {
-        "pct_point_change": -0.2037,
-        "index_turnover_increment_yi": 243.55,
-        "advance_ratio_pct_point_change": 2.27,
-        "constituents_turnover_increment_yi": 240.18
+        "pct_point_change": -0.8948,
+        "index_turnover_increment_yi": 93.96,
+        "advance_ratio_pct_point_change": -2.27,
+        "constituents_turnover_increment_yi": 92.85
       },
       "CPO光模块": {
-        "pct_point_change": -0.0131,
-        "index_turnover_increment_yi": 687.4,
-        "advance_ratio_pct_point_change": 2.67,
-        "constituents_turnover_increment_yi": 682.83
+        "pct_point_change": -0.8208,
+        "index_turnover_increment_yi": 265.45,
+        "advance_ratio_pct_point_change": -4.45,
+        "constituents_turnover_increment_yi": 264.06
       },
       "PCB": {
-        "pct_point_change": -0.2384,
-        "index_turnover_increment_yi": 349.75,
-        "advance_ratio_pct_point_change": 4.79,
-        "constituents_turnover_increment_yi": 348.38
+        "pct_point_change": -0.8679,
+        "index_turnover_increment_yi": 141.6,
+        "advance_ratio_pct_point_change": -7.4,
+        "constituents_turnover_increment_yi": 141.05
       },
       "机器人": {
-        "pct_point_change": -0.5376,
-        "index_turnover_increment_yi": 998.46,
-        "advance_ratio_pct_point_change": 1.36,
-        "constituents_turnover_increment_yi": 995.05
+        "pct_point_change": -0.8805,
+        "index_turnover_increment_yi": 453.65,
+        "advance_ratio_pct_point_change": -3.14,
+        "constituents_turnover_increment_yi": 450.37
       },
       "电网设备": {
-        "pct_point_change": -0.5496,
-        "index_turnover_increment_yi": 55.84,
-        "advance_ratio_pct_point_change": 1.6,
-        "constituents_turnover_increment_yi": 55.16
+        "pct_point_change": -0.8986,
+        "index_turnover_increment_yi": 26.48,
+        "advance_ratio_pct_point_change": -2.4,
+        "constituents_turnover_increment_yi": 25.96
       },
       "算力": {
-        "pct_point_change": -0.4151,
-        "index_turnover_increment_yi": 203.73,
-        "advance_ratio_pct_point_change": -0.54,
-        "constituents_turnover_increment_yi": 202.74
+        "pct_point_change": -0.8313,
+        "index_turnover_increment_yi": 106.34,
+        "advance_ratio_pct_point_change": -1.07,
+        "constituents_turnover_increment_yi": 105.49
       }
     }
   },
